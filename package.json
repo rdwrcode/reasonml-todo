@@ -8,6 +8,7 @@
     "reason-scripts": "^0.6.6"
   },
   "devDependencies": {
+    "bs-jest": "^0.1.0",
     "bs-platform": "^1.8.2",
     "react-scripts": "1.0.11",
     "reason-react": "^0.2.3"
@@ -15,7 +16,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "reason:watch": "bsb -w",
+    "reason:start": "node lib/js/src/index.js",
+    "reason:build": "bsb -make-world",
     "test": "react-scripts test --env=jsdom",
+    "prepare": "npm link bs-platform",
     "eject": "react-scripts eject"
   }
 }

@@ -3,6 +3,10 @@
 # dependencies
 /node_modules
 
+# auto-gen
+/lib
+/types
+
 # testing
 /coverage
 
