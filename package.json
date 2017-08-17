@@ -1,0 +1,21 @@
+{
+  "name": "reasonml-todo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "reason-scripts": "^0.6.6"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.8.2",
+    "react-scripts": "1.0.11",
+    "reason-react": "^0.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
